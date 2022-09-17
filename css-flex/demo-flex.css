@@ -1,0 +1,65 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: black;
+    font-weight: bolder;
+    
+
+}
+
+.container{
+    width: 90%;
+    height: 70%;
+    margin: auto;
+    margin-top: 150px;
+    background-color: bisque;
+
+    /*CSS FLEX*/
+    
+    /*  flexdirections
+    row column | row-reverse | column-reverse
+        justifycontent
+    flex-start | flex-end | center | space-arround | space-between | space-evenly
+        align-items
+    stretch | flex-start | flex-end | center | baseline | 
+    */
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+div div{
+    width: 70px;
+}
+
+.item1{
+    background-color: palegreen;
+    flex-shrink: 4;
+}
+.item2{
+    background-color: palevioletred;
+    flex-grow: 3;
+}
+.item3{
+    background-color: paleturquoise;
+    align-self: stretch;
+    order: -1;
+}
+.item4{
+    background-color: goldenrod;
+}
+.item5{
+    background-color: skyblue;
+    flex-grow: 2;
+}
+
+/*flex-wrap: nowrap wrap wrap-reverse*/
