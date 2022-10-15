@@ -1,0 +1,25 @@
+div {
+  background-color: rgb(124, 241, 124);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  width: 97%;
+}
+div h1 {
+  color: rgb(112, 5, 5);
+}
+div p {
+  color: rgb(112, 5, 5);
+}
+div button {
+  color: rgb(124, 241, 124);
+  background-color: rgb(112, 5, 5);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  width: 97%;
+}
+div button:hover {
+  color: rgb(112, 5, 5);
+  background-color: rgb(124, 241, 124);
+}/*# sourceMappingURL=demo-sass.css.map */

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+
+<!--
+    fs-n: font-size n (1-6)
+    mx-n: marign n (auto)
+    w-n: width n (25 50 75 100 auto)
+    text-n: can le (center)
+    mt-n: margin-top n (0-5) [spacing]
+-->
+
+<h1 class="text-center mt-3">Our Service</h1>
+<p class="fs-4 mx-auto w-50 text-center" >Dependable, professional and experienced. Choose from any of our bond cleaning services and we'll handle the rest.</p>
+
+    <!--CARD-->
+<div class="container">
+    <div class="row gx-5" >
+        <div class="col-4">
+            <div class="card">
+                <img src="/img/end-of-lease-cleaning-service.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">End of Lease Cleaning</h5>
+                    <p class="card-text">With our famouse 72-hour back guarantee, our cleaner always ensure tenants recover their full rental deposits.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card">
+                <img src="/img/end-of-lease-cleaning-service.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Vacate Cleaning</h5>
+                    <p class="card-text">Our 5-star rated cleaner specialise in helping renters pass their final vacate inspectons.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Moving Cleaning">
+                <img src="/img/end-of-lease-cleaning-service.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Moving cleaning</h5>
+                    <p class="card-text">Our cleaning teams will make sure your property is ready for sale, a rental inspection or for your family to move into</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+    const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+</script>
+
+</body>
+</html>

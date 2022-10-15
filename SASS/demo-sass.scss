@@ -1,0 +1,39 @@
+$main-color: rgb(112, 5, 5);
+$secondary-color: rgb(124, 241, 124);
+@mixin common-styling {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: 97%;
+}
+
+
+
+div{
+    background-color: $secondary-color;
+    @include common-styling();
+
+    h1{
+        color: $main-color;
+    }
+    
+    p{
+        color: $main-color
+    }
+
+    button{
+        color: $secondary-color;
+        background-color: $main-color;
+        @include common-styling();
+    }
+
+    button:hover{
+        color: $main-color;
+        background-color: $secondary-color;
+    }
+}
+
+
+
+
+

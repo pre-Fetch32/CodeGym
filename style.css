@@ -1,60 +1,14 @@
-html, body{
-    width:100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    overflow: hidden;
+
+
+
+
+
+.header__banner{
+    background-image: url(/img/forest.jfif);
+    background-size: cover;
 }
+/*muon can giua 1 anh: doi display:block va margin:auto*/
 
-.container{
-    width:70%;
-    height: 80%;
-    margin: auto;
-    margin-top:50px;
-    background-color: bisque;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;
-    font-weight: bolder;
-    
-    /*grid*/
-
-    display: grid;
-    grid-template-columns: 10% 80% 10%;
-    grid-template-rows: 1fr 1fr 4fr 1fr;
-    grid-template-areas: 
-    "header header header"
-    "navmenu"
-    "leftcontent maincontent rightcontent"
-    "footer";
-}
-
-.header{
-    background: skyblue;
-    grid-area: header;
-}
-
-.navmenu{
-    background: goldenrod;
-    grid-area: navmenu;
-}
-
-.leftcontent{
-    background: paleturquoise;
-    grid-area: leftcontent;
-}
-
-.maincontent{
-    background: greenyellow;
-    grid-area: maincontent;
-}
-
-.rightcontent{
-    background: palegreen;
-    grid-area: rightcontent;
-}
-
-.footer{
-    background: palevioletred;
-    grid-area: footer;
+.demoimg{
+    dis
 }
